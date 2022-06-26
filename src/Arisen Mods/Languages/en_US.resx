@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ADD_NEW_PROFILE" xml:space="preserve">
+    <value>Add New Profile</value>
+  </data>
   <data name="ADVANCED" xml:space="preserve">
     <value>Advanced</value>
+  </data>
+  <data name="ADVANCED_SETTINGS" xml:space="preserve">
+    <value>Advanced Settings</value>
   </data>
   <data name="ALL_CATEGORIES" xml:space="preserve">
     <value>All Categories</value>
@@ -177,6 +183,9 @@
   <data name="CANT_UNINSTALL_CFW_FILES" xml:space="preserve">
     <value>You cannot uninstall files from the firmware folder. Any missing files could impact your console performance.</value>
   </data>
+  <data name="CHANGE_PROFILE" xml:space="preserve">
+    <value>Change Profile</value>
+  </data>
   <data name="CHEAT_APPLIED" xml:space="preserve">
     <value>Successfully applied cheat to game.</value>
   </data>
@@ -216,11 +225,17 @@
   <data name="CONNECTING_TO_CONSOLE" xml:space="preserve">
     <value>Connecting to: {0}</value>
   </data>
+  <data name="CONNECTION" xml:space="preserve">
+    <value>Connection</value>
+  </data>
   <data name="CONNECTIONS" xml:space="preserve">
     <value>Connections</value>
   </data>
   <data name="CONNECTION_FAILED" xml:space="preserve">
     <value>Connection Failed</value>
+  </data>
+  <data name="CONNECT_CONSOLE" xml:space="preserve">
+    <value>Connect Console</value>
   </data>
   <data name="CONNECT_TO_CONSOLE" xml:space="preserve">
     <value>Connect to console...</value>
@@ -248,9 +263,6 @@
   </data>
   <data name="DATA_MISSING" xml:space="preserve">
     <value>DATA MISSING</value>
-  </data>
-  <data name="DEFAULT_GAME_REGIONS" xml:space="preserve">
-    <value>Default Game Regions</value>
   </data>
   <data name="DELETE" xml:space="preserve">
     <value>Delete</value>
@@ -288,11 +300,14 @@
   <data name="DISCONNECTING_FROM_CONSOLE" xml:space="preserve">
     <value>Disconnecting from console.</value>
   </data>
-  <data name="DISCONNECT_FROM_CONSOLE" xml:space="preserve">
-    <value>Disconnect from console</value>
+  <data name="DISCONNECT_CONSOLE" xml:space="preserve">
+    <value>Disconnect Console</value>
   </data>
   <data name="DISCONNECT_LOWERCASE" xml:space="preserve">
     <value>Disconnect</value>
+  </data>
+  <data name="DISCORD_RICH_PRESENCE" xml:space="preserve">
+    <value>Discord Rich Presence</value>
   </data>
   <data name="DOWNLOADING_GAME_SAVE" xml:space="preserve">
     <value>Downloading Game Save</value>
@@ -314,6 +329,9 @@
   </data>
   <data name="DOWNLOAD_FOLDER_NOT_FOUND" xml:space="preserve">
     <value>Download folder doesn't exist on your computer. You can change the download location in your settings.</value>
+  </data>
+  <data name="EDIT_PROFILES" xml:space="preserve">
+    <value>Edit Profiles</value>
   </data>
   <data name="ENABLE_HARDWARE_ACCELERATION" xml:space="preserve">
     <value>Enable Hardware Acceleration</value>
@@ -546,6 +564,9 @@
   <data name="FOUND_USER_PROFILE" xml:space="preserve">
     <value>Found user profile: {0}</value>
   </data>
+  <data name="GAMES" xml:space="preserve">
+    <value>Games</value>
+  </data>
   <data name="GAMES_LAUNCHER" xml:space="preserve">
     <value>Games Launcher</value>
   </data>
@@ -561,8 +582,8 @@
   <data name="GAME_SAVE_RESIGNER" xml:space="preserve">
     <value>Game Save Resigner</value>
   </data>
-  <data name="GAME_UPDATES_FINDER" xml:space="preserve">
-    <value>Game Updates Finder</value>
+  <data name="GAME_UPDATES" xml:space="preserve">
+    <value>Game Updates</value>
   </data>
   <data name="GETTING_DOWNLOAD_FILES" xml:space="preserve">
     <value>Getting archive file download link...</value>
@@ -579,11 +600,17 @@
   <data name="GETTING_USER_PROFILE" xml:space="preserve">
     <value>Getting user profile...</value>
   </data>
+  <data name="HARD_REBOOT" xml:space="preserve">
+    <value>Hard Reboot</value>
+  </data>
   <data name="HELP" xml:space="preserve">
     <value>HELP</value>
   </data>
   <data name="HELP_TRANSLATE" xml:space="preserve">
     <value>Help translate Arisen Mods on Crowdin</value>
+  </data>
+  <data name="HOME" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO" xml:space="preserve">
     <value>Activating a C00/Demo package is very easy and doesn't require a rap file. It can be done using ReActPSN or PSNPatch.\n\nReActPSN : Run the homebrew while pressing and holding circle on your controller.
@@ -597,6 +624,9 @@
   </data>
   <data name="HOW_TO_ACTIVATE_RAP_QUESTION" xml:space="preserve">
     <value>How do I activate a PSN package with a RAP file?</value>
+  </data>
+  <data name="HOW_TO_GUIDES" xml:space="preserve">
+    <value>How-To Guides</value>
   </data>
   <data name="ICON" xml:space="preserve">
     <value>Icon</value>
@@ -658,6 +688,9 @@
   <data name="INSTALL_MODS_TO_LOCAL_USB" xml:space="preserve">
     <value>Install Game Mods/Plugins to local USB device</value>
   </data>
+  <data name="INSTALL_MODS_TO_USB" xml:space="preserve">
+    <value>Install Mods to USB</value>
+  </data>
   <data name="INSTALL_PACKAGES_TO_LOCAL_USB" xml:space="preserve">
     <value>Install Packages to local USB device</value>
   </data>
@@ -666,6 +699,9 @@
   </data>
   <data name="INVALID_TITLE_ID" xml:space="preserve">
     <value>Invalid ID or cannot be found. Are you sure this is a valid PS3 Title ID?</value>
+  </data>
+  <data name="IP_GRABBER" xml:space="preserve">
+    <value>IP Grabber</value>
   </data>
   <data name="LABEL_ADDRESS_NAME" xml:space="preserve">
     <value>IP Address/Name</value>
@@ -922,6 +958,9 @@
   <data name="LABEL_OK" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="LABEL_OPEN" xml:space="preserve">
+    <value>Open</value>
+  </data>
   <data name="LABEL_OPEN_EXPLORER" xml:space="preserve">
     <value>Open Explorer</value>
   </data>
@@ -999,6 +1038,9 @@
   </data>
   <data name="LABEL_SET" xml:space="preserve">
     <value>Set</value>
+  </data>
+  <data name="LABEL_SET_FAN_SPEED" xml:space="preserve">
+    <value>Set Fan Speed</value>
   </data>
   <data name="LABEL_SET_LEDS" xml:space="preserve">
     <value>Set LEDs</value>
@@ -1087,14 +1129,17 @@
   <data name="MISSING" xml:space="preserve">
     <value>MISSING</value>
   </data>
-  <data name="MODULES_LOADER" xml:space="preserve">
-    <value>Modules Loader</value>
+  <data name="MODDING_TOOLS" xml:space="preserve">
+    <value>Modding Tools</value>
   </data>
   <data name="MODULE_ALREADY_LOADED" xml:space="preserve">
     <value>Module has already been loaded.</value>
   </data>
   <data name="MODULE_LOADED" xml:space="preserve">
     <value>Module has already been loaded.</value>
+  </data>
+  <data name="MODULE_LOADER" xml:space="preserve">
+    <value>Module Loader</value>
   </data>
   <data name="MODULE_LOAD_ERROR" xml:space="preserve">
     <value>Unable to load module.\n\nError: {0}</value>
@@ -1116,6 +1161,51 @@
   </data>
   <data name="MOTHERBOARD" xml:space="preserve">
     <value>Motherboard</value>
+  </data>
+  <data name="MOUNT_BD" xml:space="preserve">
+    <value>Mount BD</value>
+  </data>
+  <data name="MOUNT_ISO" xml:space="preserve">
+    <value>Mount ISO</value>
+  </data>
+  <data name="MOUNT_PSN" xml:space="preserve">
+    <value>Mount PSN</value>
+  </data>
+  <data name="NAVIGATION_DASHBOARD" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="NAVIGATION_DOWNLOADS" xml:space="preserve">
+    <value>DOWNLOADS</value>
+  </data>
+  <data name="NAVIGATION_FILE_MANAGER" xml:space="preserve">
+    <value>FILE MANAGER</value>
+  </data>
+  <data name="NAVIGATION_GAME_CHEATS" xml:space="preserve">
+    <value>GAME CHEATS</value>
+  </data>
+  <data name="NAVIGATION_GAME_MODS" xml:space="preserve">
+    <value>GAME MODS</value>
+  </data>
+  <data name="NAVIGATION_GAME_SAVES" xml:space="preserve">
+    <value>GAME SAVES</value>
+  </data>
+  <data name="NAVIGATION_HOMEBREW" xml:space="preserve">
+    <value>HOMEBREW</value>
+  </data>
+  <data name="NAVIGATION_INSTALLED_MODS" xml:space="preserve">
+    <value>INSTALLED MODS</value>
+  </data>
+  <data name="NAVIGATION_PACKAGES" xml:space="preserve">
+    <value>PACKAGES</value>
+  </data>
+  <data name="NAVIGATION_PLUGINS" xml:space="preserve">
+    <value>PLUGINS</value>
+  </data>
+  <data name="NAVIGATION_RESOURCES" xml:space="preserve">
+    <value>RESOURCES</value>
+  </data>
+  <data name="NAVIGATION_SETTINGS" xml:space="preserve">
+    <value>SETTINGS</value>
   </data>
   <data name="NEIGHBORHOOD_NOT_FOUND" xml:space="preserve">
     <value>Make sure Neighborhood is installed on your computer</value>
@@ -1219,6 +1309,9 @@
   <data name="PACKAGE_FILE_MANAGER" xml:space="preserve">
     <value>Package Files Manager</value>
   </data>
+  <data name="POWER" xml:space="preserve">
+    <value>Power</value>
+  </data>
   <data name="PREPARING_DOWNLOAD" xml:space="preserve">
     <value>Preparing to download archive...</value>
   </data>
@@ -1240,11 +1333,20 @@
   <data name="PROFILE_EDIT" xml:space="preserve">
     <value>Edit Profile</value>
   </data>
+  <data name="QUICK_REBOOT" xml:space="preserve">
+    <value>Quick Reboot</value>
+  </data>
+  <data name="QUICK_SETTINGS" xml:space="preserve">
+    <value>Quick Settings</value>
+  </data>
   <data name="READY_TO_CONNECT" xml:space="preserve">
     <value>Ready to connect...</value>
   </data>
   <data name="READY_TO_START_GAME" xml:space="preserve">
     <value>Ready to start game.</value>
+  </data>
+  <data name="RECONNECT_CONSOLE" xml:space="preserve">
+    <value>Reconnect Console</value>
   </data>
   <data name="REDIRECTING" xml:space="preserve">
     <value>Redirecting...</value>
@@ -1273,6 +1375,9 @@
   <data name="REQUIRES_PREVIOUS_USB_DEVICE" xml:space="preserve">
     <value>Files have been installed to a USB device connected to your console. You can either uninstall them now or manually delete them.\n\nIf you would like to uninstall the files now, connect the same USB device you installed the mods to into the same port of your console and click 'Yes' to continue.\nIf you don't want to uninstall the files, click 'No' and all of these files will be ignored.</value>
   </data>
+  <data name="RESTART" xml:space="preserve">
+    <value>Restart</value>
+  </data>
   <data name="RESTART_REQUIRED" xml:space="preserve">
     <value>Restart Required</value>
   </data>
@@ -1294,35 +1399,23 @@
   <data name="SCANNING_XBOX_FINISHED" xml:space="preserve">
     <value>Finished scanning for Xbox consoles.</value>
   </data>
+  <data name="SCAN_XBOX_CONSOLES" xml:space="preserve">
+    <value>Scan Xbox Consoles</value>
+  </data>
   <data name="SCRIPT_CANT_BE_INSTALLED" xml:space="preserve">
     <value>This mod type (Script) can't be installed on the PS3 because it needs the user manual addition.</value>
-  </data>
-  <data name="SETUP_EDIT_ADVANCED_SETTINGS" xml:space="preserve">
-    <value>Edit Advanced Settings</value>
-  </data>
-  <data name="SETUP_HOWTO_GUIDE" xml:space="preserve">
-    <value>How-To Guides for Arisen Mods</value>
-  </data>
-  <data name="SETUP_PROFILES_EDIT" xml:space="preserve">
-    <value>Edit Console Profiles</value>
-  </data>
-  <data name="SETUP_PROFILE_ADD" xml:space="preserve">
-    <value>Add Console Profile</value>
-  </data>
-  <data name="SETUP_SCAN_XBOX_CONSOLES" xml:space="preserve">
-    <value>Scan For Xbox Consoles</value>
-  </data>
-  <data name="SETUP_SET_DOWNLOADS_LOCATION" xml:space="preserve">
-    <value>Set Downloads Location</value>
-  </data>
-  <data name="SETUP_STARTUP_LIBRARY" xml:space="preserve">
-    <value>Startup Library</value>
   </data>
   <data name="SHOW_CURRENT_GAME_PLAYING" xml:space="preserve">
     <value>Show current game playing</value>
   </data>
   <data name="SHOW_GAMES_IN_EXTERNAL_DEVICES" xml:space="preserve">
     <value>Show games list from external device</value>
+  </data>
+  <data name="SHUTDOWN" xml:space="preserve">
+    <value>Shutdown</value>
+  </data>
+  <data name="SOFT_REBOOT" xml:space="preserve">
+    <value>Soft Reboot</value>
   </data>
   <data name="STARTING_INSTALL" xml:space="preserve">
     <value>Starting install...</value>
@@ -1351,14 +1444,14 @@
   <data name="SYSTEM_TEMPERATURES" xml:space="preserve">
     <value>System Temperatures</value>
   </data>
+  <data name="TAKE_SCREENSHOT" xml:space="preserve">
+    <value>Take Screenshot</value>
+  </data>
   <data name="TITLE_ANNOUNCEMENTS" xml:space="preserve">
     <value>ANNOUNCEMENTS</value>
   </data>
   <data name="TITLE_CHANGE_LOG" xml:space="preserve">
     <value>CHANGE LOG</value>
-  </data>
-  <data name="TITLE_CONNECT" xml:space="preserve">
-    <value>CONNECT</value>
   </data>
   <data name="TITLE_CONTRIBUTORS" xml:space="preserve">
     <value>CONTRIBUTORS</value>
@@ -1366,38 +1459,8 @@
   <data name="TITLE_CREDITS" xml:space="preserve">
     <value>CREDITS</value>
   </data>
-  <data name="TITLE_DASHBOARD" xml:space="preserve">
-    <value>DASHBOARD</value>
-  </data>
-  <data name="TITLE_DOWNLOADS" xml:space="preserve">
-    <value>DOWNLOADS</value>
-  </data>
-  <data name="TITLE_FILE_MANAGER" xml:space="preserve">
-    <value>FILE MANAGER</value>
-  </data>
   <data name="TITLE_GAMES" xml:space="preserve">
     <value>GAMES</value>
-  </data>
-  <data name="TITLE_GAME_CHEATS" xml:space="preserve">
-    <value>GAME CHEATS</value>
-  </data>
-  <data name="TITLE_GAME_MODS" xml:space="preserve">
-    <value>GAME MODS</value>
-  </data>
-  <data name="TITLE_GAME_SAVES" xml:space="preserve">
-    <value>GAME SAVES</value>
-  </data>
-  <data name="TITLE_GET_STARTED" xml:space="preserve">
-    <value>GET STARTED</value>
-  </data>
-  <data name="TITLE_HELP" xml:space="preserve">
-    <value>HELP</value>
-  </data>
-  <data name="TITLE_HOMEBREW" xml:space="preserve">
-    <value>HOMEBREW</value>
-  </data>
-  <data name="TITLE_INSTALLED_MODS" xml:space="preserve">
-    <value>INSTALLED MODS</value>
   </data>
   <data name="TITLE_INTERFACE" xml:space="preserve">
     <value>INTERFACE</value>
@@ -1408,17 +1471,11 @@
   <data name="TITLE_OPTIONS" xml:space="preserve">
     <value>OPTIONS</value>
   </data>
-  <data name="TITLE_PACKAGES" xml:space="preserve">
-    <value>PACKAGES</value>
+  <data name="TITLE_OUR_FAVORITE_MODS" xml:space="preserve">
+    <value>OUR FAVORITE MODS</value>
   </data>
-  <data name="TITLE_PLUGINS" xml:space="preserve">
-    <value>PLUGINS</value>
-  </data>
-  <data name="TITLE_RESOURCES" xml:space="preserve">
-    <value>RESOURCES</value>
-  </data>
-  <data name="TITLE_SETTINGS" xml:space="preserve">
-    <value>SETTINGS</value>
+  <data name="TITLE_RECENTLY_UPDATED" xml:space="preserve">
+    <value>RECENTLY UPDATED</value>
   </data>
   <data name="TITLE_SPECIAL_THANKS" xml:space="preserve">
     <value>SPECIAL THANKS</value>
@@ -1426,11 +1483,8 @@
   <data name="TITLE_STATISTICS" xml:space="preserve">
     <value>STATISTICS</value>
   </data>
-  <data name="TITLE_SUBMIT_MODS" xml:space="preserve">
-    <value>SUBMIT MODS</value>
-  </data>
-  <data name="TITLE_TOOLS" xml:space="preserve">
-    <value>TOOLS</value>
+  <data name="TOOLS" xml:space="preserve">
+    <value>Tools</value>
   </data>
   <data name="UNABLE_LOAD_DATABASE" xml:space="preserve">
     <value>Unable to load database.</value>
@@ -1474,6 +1528,9 @@
   <data name="UNINSTALL_USB_FILES" xml:space="preserve">
     <value>Uninstall USB Files</value>
   </data>
+  <data name="UNMOUNT" xml:space="preserve">
+    <value>Unmount</value>
+  </data>
   <data name="UPLOAD_ERROR" xml:space="preserve">
     <value>Unable to upload to console. Error: {0}</value>
   </data>
@@ -1489,8 +1546,17 @@
   <data name="VIEW_DETAILS" xml:space="preserve">
     <value>View Details</value>
   </data>
+  <data name="VIRTUAL_CONTROLLER" xml:space="preserve">
+    <value>Virtual Controller</value>
+  </data>
+  <data name="WEBMAN_COMMANDS" xml:space="preserve">
+    <value>webMAN Commands</value>
+  </data>
   <data name="WEBMAN_REQUIRED" xml:space="preserve">
     <value>This feature requires webMAN installed on your console.</value>
+  </data>
+  <data name="XBDM_COMMANDS" xml:space="preserve">
+    <value>XBDM Commands</value>
   </data>
   <data name="XBOX_CONSOLES" xml:space="preserve">
     <value>Xbox Consoles</value>
@@ -1503,6 +1569,9 @@
   </data>
   <data name="XUID_SET_SUCCESS" xml:space="preserve">
     <value>Successfully change your XUID for game.</value>
+  </data>
+  <data name="XUID_SPOOFER" xml:space="preserve">
+    <value>XUID Spoofer</value>
   </data>
   <data name="YOU_MUST_BE_CONNECTED_TO_UNINSTALL_FILES" xml:space="preserve">
     <value>You must be connected to {0} to uninstall the files.</value>
