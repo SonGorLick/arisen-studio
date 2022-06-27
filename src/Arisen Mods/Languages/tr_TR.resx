@@ -890,13 +890,13 @@
     <value>Kur</value>
   </data>
   <data name="LABEL_INSTALLATION_FILES" xml:space="preserve">
-    <value>Installation Files</value>
+    <value>Kurulum Dosyaları</value>
   </data>
   <data name="LABEL_INSTALLED" xml:space="preserve">
     <value>Kurulu</value>
   </data>
   <data name="LABEL_INSTALLED_ON" xml:space="preserve">
-    <value>Installed On</value>
+    <value>Kurulum</value>
   </data>
   <data name="LABEL_INSTALL_FILE" xml:space="preserve">
     <value>Install File</value>
@@ -1022,7 +1022,7 @@
     <value>Zil Sesi</value>
   </data>
   <data name="LABEL_SAVE_AND_UPDATE" xml:space="preserve">
-    <value>Kaydet &amp;&amp; Güncelle</value>
+    <value>Kaydet &amp; Güncelle</value>
   </data>
   <data name="LABEL_SAVE_PROFILE" xml:space="preserve">
     <value>Profili Kaydet</value>
@@ -1046,7 +1046,7 @@
     <value>LED Ayarla</value>
   </data>
   <data name="LABEL_SET_VALUE" xml:space="preserve">
-    <value>Değer Belirle</value>
+    <value>Değer Ayarla</value>
   </data>
   <data name="LABEL_SHOW_FAVORITES" xml:space="preserve">
     <value>Favorileri Göster</value>
@@ -1088,7 +1088,7 @@
     <value>Tür</value>
   </data>
   <data name="LABEL_UNFAVORITE" xml:space="preserve">
-    <value>Unfavorite</value>
+    <value>Favorilerden Çıkar</value>
   </data>
   <data name="LABEL_UNLOAD_MODULE" xml:space="preserve">
     <value>Modülü Pasifleştir</value>
@@ -1208,7 +1208,7 @@
     <value>AYARLAR</value>
   </data>
   <data name="NEIGHBORHOOD_NOT_FOUND" xml:space="preserve">
-    <value>Make sure Neighborhood is installed on your computer</value>
+    <value>Bilgisayarınızda 'Neighborhood' kurulu olduğundan emin olun</value>
   </data>
   <data name="NOTICE_INSTALL_REBUG_FILES" xml:space="preserve">
     <value>These files are being installed to the firmware folder (dev_rebug) which is for REBUG Custom Firmware only. Please read everything below before proceeding.\n\n- It's recommended to first create a backup of the entire folder before installing any files.\n- Your console must be running Rebug custom firmware.\n- REBUG TOOLBOX must be open during installation\n- Any missing or corrupt files in this folder can impact your console performance.\n- If you have issues after rebooting console, enter recovery mode and reinstall the custom firmware.\n\nOnly continue at your own risk and only if you know what you're doing.\n\nDo you want to continue?</value>
@@ -1268,7 +1268,7 @@
     <value>Listeniz Yok</value>
   </data>
   <data name="NO_MORE_DETAILS" xml:space="preserve">
-    <value>Bunun için henüz başka bir ayrıntı bulunamadı.</value>
+    <value>Bunun için henüz başka ayrıntı yok... Daha fazlasını sağlayabilirseniz lütfen bize bildirin!</value>
   </data>
   <data name="NO_NEWS_IS_GOOD_NEWS" xml:space="preserve">
     <value>Her haber iyi haber değildir!</value>
@@ -1373,7 +1373,7 @@
     <value>Görseli Değiştir</value>
   </data>
   <data name="REQUIRES_PREVIOUS_USB_DEVICE" xml:space="preserve">
-    <value>Files have been installed to a USB device connected to your console. You can either uninstall them now or manually delete them.\n\nIf you would like to uninstall the files now, connect the same USB device you installed the mods to into the same port of your console and click 'Yes' to continue.\nIf you don't want to uninstall the files, click 'No' and all of these files will be ignored.</value>
+    <value>Dosyalar, konsolunuza bağlı bir USB cihazına kuruldu. Bunları şimdi kaldırabilir veya el ile silebilirsiniz.\n\nDosyaları şimdi kaldırmak istiyorsanız, modları kurduğunuz aynı USB cihazını konsolunuzun aynı bağlantı noktasına bağlayın ve devam etmek için 'Evet' tıklayın.\nDosyaları kaldırmak istemiyorsanız, 'Hayır' tıklayın ve bu dosyaların tümü yok sayılacaktır.</value>
   </data>
   <data name="RESTART" xml:space="preserve">
     <value>Yeniden Başlat</value>
@@ -1496,7 +1496,7 @@
     <value>Dizin için Dosya Gezgini açılamıyor: {0} - Hata {1}</value>
   </data>
   <data name="UNFAVORITE" xml:space="preserve">
-    <value>Unfavorite</value>
+    <value>Favorilerden Çıkar</value>
   </data>
   <data name="UNINSTALLED" xml:space="preserve">
     <value>Kaldırıldı</value>
