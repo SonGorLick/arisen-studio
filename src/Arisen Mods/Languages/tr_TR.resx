@@ -136,7 +136,7 @@
     <value>{0} şuraya kurulur: {1}\nAynı oyun için birden çok mod kurmak, çakışma gibi sorunlara yol açabilir.\n\nMevcut dosyaları kaldırmak istiyor musunuz?</value>
   </data>
   <data name="ANY" xml:space="preserve">
-    <value>ANY</value>
+    <value>HİÇ</value>
   </data>
   <data name="ARCHIVE_DOWNLOADING" xml:space="preserve">
     <value>Arşiv indiriliyor...</value>
@@ -220,7 +220,7 @@
     <value>Bağlandı</value>
   </data>
   <data name="CONNECTED_NOTIFICATION" xml:space="preserve">
-    <value>Modio ile bağlısınız ★</value>
+    <value>Arisen Mods ile bağlısınız ★</value>
   </data>
   <data name="CONNECTING_TO_CONSOLE" xml:space="preserve">
     <value>Bağlanıyor: {0}</value>
@@ -298,13 +298,13 @@
     <value>Dizin Bulunamadı</value>
   </data>
   <data name="DISCONNECTING_FROM_CONSOLE" xml:space="preserve">
-    <value>Konsoldan bağlantı kesiliyor.</value>
+    <value>Konsol bağlantısı kesiliyor.</value>
   </data>
   <data name="DISCONNECT_CONSOLE" xml:space="preserve">
     <value>Konsol Bağlantısını Kes</value>
   </data>
   <data name="DISCONNECT_LOWERCASE" xml:space="preserve">
-    <value>Bağlantıyı kes</value>
+    <value>Bağlantıyı Kes</value>
   </data>
   <data name="DISCORD_RICH_PRESENCE" xml:space="preserve">
     <value>Discord Zengin İçerik</value>
@@ -343,7 +343,7 @@
     <value>Oyun dosyası başlatılamıyor. Hata: {0}</value>
   </data>
   <data name="ERROR_OCCURRED" xml:space="preserve">
-    <value>Bir hata oluştu: {0}</value>
+    <value>Bir hata oluştu: {0}\n\nLütfen sonra deneyin. Sorun devam ederse &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt; yeni konu aç&lt;/a&gt; GitHub üstünde.</value>
   </data>
   <data name="EXTRACT_IMAGE" xml:space="preserve">
     <value>Görüntüyü Ayıkla</value>
@@ -430,10 +430,10 @@
     <value>Dosya kurulamıyor. Hata: {0}</value>
   </data>
   <data name="FILE_INSTALL_LOCATION" xml:space="preserve">
-    <value>Installing file: {0} to {1}</value>
+    <value>Dosya kuruluyor: {0} - {1}</value>
   </data>
   <data name="FILE_INSTALL_SUCCESS" xml:space="preserve">
-    <value>Successfully installed file(s).</value>
+    <value>Dosya başarıyla kuruldu.</value>
   </data>
   <data name="FILE_MISSING" xml:space="preserve">
     <value>Eksik Dosya</value>
@@ -457,7 +457,7 @@
     <value>{0} zaten kurulu.\n\nDosyayı tekrar kurmak istiyor musunuz?</value>
   </data>
   <data name="FILE_RENAME" xml:space="preserve">
-    <value>Yeniden Adlandır</value>
+    <value>Dosyayı Adlandır</value>
   </data>
   <data name="FILE_RENAMED" xml:space="preserve">
     <value>Dosya başarıyla yeniden adlandırıldı: {0}</value>
@@ -472,58 +472,58 @@
     <value>Bu dosyayı yeniden adlandırmak istiyor musunuz?\n\nNot: Modülün yüklenmesini etkilemeyecektir.</value>
   </data>
   <data name="FILE_RENAMING" xml:space="preserve">
-    <value>Renaming file to: {0}</value>
+    <value>Dosya yeniden adlandırılıyor: {0}</value>
   </data>
   <data name="FILE_SAVE_ERROR" xml:space="preserve">
     <value>Dosya kaydedilirken veya yüklenirken sorun oluştu.\n\nHata: {0}</value>
   </data>
   <data name="FILE_UNINSTALL_ERROR" xml:space="preserve">
-    <value>Unable to uninstall files. Error: {0}</value>
+    <value>Dosyalar kaldırılamıyor. Hata: {0}</value>
   </data>
   <data name="FILE_UNINSTALL_LOCATION" xml:space="preserve">
-    <value>Uninstalling file: {0} from {1}</value>
+    <value>Kaldırılacak dosya: {0} - {1}</value>
   </data>
   <data name="FILE_UNINSTALL_SUCCESSS" xml:space="preserve">
-    <value>Successfully uninstalled file.</value>
+    <value>Dosya başarıyla kaldırıldı.</value>
   </data>
   <data name="FILE_UPLOADED" xml:space="preserve">
-    <value>Successfully uploaded file: {0}</value>
+    <value>Dosya başarıyla yüklendi: {0}</value>
   </data>
   <data name="FILE_UPLOADING" xml:space="preserve">
-    <value>Uploading file to: {0}</value>
+    <value>Dosya şuraya yükleniyor: {0}</value>
   </data>
   <data name="FILE_UPLOAD_NOT_FOUND" xml:space="preserve">
-    <value>This file doesn't exist on your computer.</value>
+    <value>Bu dosya bilgisayarınızda yok.</value>
   </data>
   <data name="FOLDER_CREATE" xml:space="preserve">
     <value>Yeni Klasör Ekle</value>
   </data>
   <data name="FOLDER_CREATED" xml:space="preserve">
-    <value>Successfully created folder: {0}</value>
+    <value>Klasör başarıyla oluşturuldu: {0}</value>
   </data>
   <data name="FOLDER_CREATE_ERROR" xml:space="preserve">
-    <value>Unable to create new folder. Error: {0}</value>
+    <value>Yeni klasör oluşturulamıyor. Hata: {0}</value>
   </data>
   <data name="FOLDER_CREATING" xml:space="preserve">
-    <value>Creating folder: {0}</value>
+    <value>Klasör oluştur: {0}</value>
   </data>
   <data name="FOLDER_DELETED" xml:space="preserve">
-    <value>Successfully deleted folder: {0}</value>
+    <value>Klasör başarıyla silindi: {0}</value>
   </data>
   <data name="FOLDER_DELETE_SUCCESS" xml:space="preserve">
-    <value>Successfully deleted folder.</value>
+    <value>Klasör başarıyla silindi.</value>
   </data>
   <data name="FOLDER_DELETING" xml:space="preserve">
-    <value>Deleting folder: {0}</value>
+    <value>Klasör siliniyor: {0}</value>
   </data>
   <data name="FOLDER_DOWNLOADED" xml:space="preserve">
-    <value>Successfully downloaded folder: {0}</value>
+    <value>Klasör başarıyla indirildi: {0}</value>
   </data>
   <data name="FOLDER_DOWNLOADING" xml:space="preserve">
-    <value>Downloading folder: {0}</value>
+    <value>Klasör indiriliyor: {0}</value>
   </data>
   <data name="FOLDER_DOWNLOAD_ERROR" xml:space="preserve">
-    <value>Unable to download folder. Error: {0}</value>
+    <value>Klasör indirilemiyor. Hata: {0}</value>
   </data>
   <data name="FOLDER_NAME" xml:space="preserve">
     <value>Klasör Adı:</value>
@@ -535,19 +535,19 @@
     <value>Klasörü Adlandır</value>
   </data>
   <data name="FOLDER_RENAMED" xml:space="preserve">
-    <value>Successfully renamed folder: {0}</value>
+    <value>Klasör başarıyla adlandırıldı: {0}</value>
   </data>
   <data name="FOLDER_RENAME_ERROR" xml:space="preserve">
-    <value>Unable to rename folder. Error: {0}</value>
+    <value>Klasör adlandırılamıyor. Hata: {0}</value>
   </data>
   <data name="FOLDER_RENAMING" xml:space="preserve">
-    <value>Renaming folder: {0}</value>
+    <value>Klasör adlandırılıyor: {0}</value>
   </data>
   <data name="FOLDER_UPLOADED" xml:space="preserve">
-    <value>Successfully uploaded folder: {0}</value>
+    <value>Klasör başarıyla yüklendi: {0}</value>
   </data>
   <data name="FOLDER_UPLOADING" xml:space="preserve">
-    <value>Uploading folder to: {0}</value>
+    <value>Klasör şuraya yükleniyor: {0}</value>
   </data>
   <data name="FORBIDDEN" xml:space="preserve">
     <value>Yasak</value>
@@ -607,20 +607,20 @@
     <value>YARDIM</value>
   </data>
   <data name="HELP_TRANSLATE" xml:space="preserve">
-    <value>Help translate Modio on Crowdin</value>
+    <value>Arisen Mod çevirisine Crowdin ile yardım edin</value>
   </data>
   <data name="HOME" xml:space="preserve">
     <value>Ev</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO" xml:space="preserve">
-    <value>Activating a C00/Demo package is very easy and doesn't require a rap file. It can be done using ReActPSN or PSNPatch.\n\nReActPSN : Run the homebrew while pressing and holding circle on your controller.
-\nPSNPatch : Run PSNPatch and press R1. It should displays a list of the games that have been unlocked.</value>
+    <value>Bir C00/Demo paketini etkinleştirmek kolaydır bir rap dosyası gerektirmez. ReActPSN veya PSNPatch kullanılarak yapılabilir.\n\nReActPSN : Kontrol cihazınızdaki daireye basılı tutarken 'homebrew' çalıştırın.
+\nPSNPatch : PSNPatch çalıştırın ve R1 düğmesine basın. Kilidi açılmış oyunların bir listesini göstermelidir.</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO_QUESTION" xml:space="preserve">
     <value>Ücretsiz lisansı olan bir C00/Demo nasıl etkinleştiririm?</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP" xml:space="preserve">
-    <value>Activating a package using a rap file requires few steps. It can be done with ReActPSN or PSNPatch. However, I will only describe how to do it with ReActPSN.\n\n1. Format a USB key in FAT32.\n2. Create the folder 'exdata' at the root of the USB key.\n3. Move the corresponding RAP file for the games you want to activate in the exdata folder.\nWarning: Do not rename rap files ! You need to leave their original ugly name.\n4. Connect the USB key in the right USB port of the PS3 (the closest to the bluray drive).\n5. Delete the ReActPSN user on your PS3 if it exists.\n6. Create the account 'aa' (without quotes) and open the account.\n7. Run ReActPSN and the screen should go black, then you should hear beeps and then the PS3 should reboot.\n8. The user 'aa' should be gone now and the account 'ReActPSN' automatically created.\n9. You're done!</value>
+    <value>Bir rap dosyası kullanarak bir paketi etkinleştirmek birkaç adım gerektirir. ReActPSN veya PSNPatch ile yapılabilir. ReActPSN ile nasıl yapılacağını anlatacağım.\n\n1. USB cihazını FAT32 olarak biçimlendirin.\n2. USB cihazı ana dizinde 'exdata' klasörü oluşturun.\n3. Etkinleştirmek istediğiniz oyunlar için ilgili RAP dosyasını exdata klasörüne taşıyın.\nUyarı: Rap dosyalarını yeniden adlandırmayın! Orijinal çirkin isimlerini bırakmanız gerekiyor.\n4. USB cihazını PS3 sağ USB bağlantı noktasına (bluray sürücüsüne yakın olana) bağlayın.\n5. Varsa, PS3 üstünden ReActPSN kullanıcısını silin.\n6. 'aa' hesabını (tırnak işaretleri olmadan) oluşturun ve hesabı açın.\n7. ReActPSN çalıştırın, ekran kararacaktır, ardından bip sesleri duymalısınız ve ardından PS3 yeniden başlatılmalıdır.\n8. 'aa' kullanıcısı şimdi gitmiş olmalı ve 'ReActPSN' hesabı otomatik olarak oluşturulmalıdır.\n9. Şimdi hazırısınız!</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP_QUESTION" xml:space="preserve">
     <value>RAP dosyası içeren bir PSN paketini nasıl etkinleştiririm?</value>
@@ -647,7 +647,7 @@
     <value>Önce bilgisayarınıza bir USB cihazı takın ve ardından dosyaları yeniden kurun.</value>
   </data>
   <data name="INSERT_USB_DEVICE_TO_CONSOLE" xml:space="preserve">
-    <value>One or more files needs to be installed to a USB device which is connected to your console.\nInsert a USB device to your console and click 'Yes' to continue. Otherwise click 'No' to ignore these files.</value>
+    <value>Konsolunuza bağlı bir USB cihazına bir veya daha fazla dosyanın kurulması gerekiyor.\nKonsolunuza bir USB cihazı takın ve devam etmek için 'Evet' tıklayın. Yoksa bu dosyaları yok saymak için 'Hayır' tıklayın.</value>
   </data>
   <data name="INSTALLED" xml:space="preserve">
     <value>Kurulu</value>
@@ -656,19 +656,19 @@
     <value>Kuruluyor</value>
   </data>
   <data name="INSTALLING_BACKUP_FILE_LOCATION" xml:space="preserve">
-    <value>Installing backup file: {0} to {1}</value>
+    <value>Yedek dosyası kuruluyor: {0} - {1}</value>
   </data>
   <data name="INSTALLING_GAME_SAVE" xml:space="preserve">
-    <value>Installing Game Save</value>
+    <value>Oyun Kaydı Kuruluyor</value>
   </data>
   <data name="INSTALLING_MODS" xml:space="preserve">
-    <value>Installing Mods</value>
+    <value>Modlar Kuruluyor</value>
   </data>
   <data name="INSTALLING_PACKAGE_FILE" xml:space="preserve">
-    <value>Installing Package</value>
+    <value>Paketler Kuruluyor</value>
   </data>
   <data name="INSTALL_CANCELED" xml:space="preserve">
-    <value>Installation canceled.</value>
+    <value>Kurulum iptal edildi.</value>
   </data>
   <data name="INSTALL_FILE" xml:space="preserve">
     <value>Dosyayı Kur</value>
@@ -773,10 +773,10 @@
     <value>URL Panoya Kopyala</value>
   </data>
   <data name="LABEL_CREATED_BY" xml:space="preserve">
-    <value>Created By</value>
+    <value>Oluşturan</value>
   </data>
   <data name="LABEL_CREATED_ON" xml:space="preserve">
-    <value>Created On</value>
+    <value>Oluşturuldu</value>
   </data>
   <data name="LABEL_CREATOR" xml:space="preserve">
     <value>Oluşturan</value>
@@ -824,7 +824,7 @@
     <value>Dosya İndir</value>
   </data>
   <data name="LABEL_DOWNLOAD_FILES" xml:space="preserve">
-    <value>Download Files</value>
+    <value>Dosyaları İndir</value>
   </data>
   <data name="LABEL_EDIT" xml:space="preserve">
     <value>Düzenle</value>
@@ -881,13 +881,13 @@
     <value>Ev Yapımı</value>
   </data>
   <data name="LABEL_IMAGE" xml:space="preserve">
-    <value>Image</value>
+    <value>Resim</value>
   </data>
   <data name="LABEL_IMAGE_SIZE_TOO_BIG" xml:space="preserve">
     <value>Resim dosyası boyutu çok büyük!</value>
   </data>
   <data name="LABEL_INSTALL" xml:space="preserve">
-    <value>Install</value>
+    <value>Kur</value>
   </data>
   <data name="LABEL_INSTALLATION_FILES" xml:space="preserve">
     <value>Installation Files</value>
@@ -905,7 +905,7 @@
     <value>IP Adresi</value>
   </data>
   <data name="LABEL_LAST_MODIFIED" xml:space="preserve">
-    <value>Modified On</value>
+    <value>Düzenleme</value>
   </data>
   <data name="LABEL_LAST_UPDATED" xml:space="preserve">
     <value>Son Güncellenme</value>
