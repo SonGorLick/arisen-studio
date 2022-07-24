@@ -133,7 +133,11 @@
     <value>All Games</value>
   </data>
   <data name="ANOTHER_MOD_INSTALLED" xml:space="preserve">
-    <value>{0} is installed to: {1}\nInstalling multiple mods for the same game can lead to problems such as conflicts.\n\nDo you want to uninstall the current files?</value>
+    <value>{0} is installed to: {1}
+
+Installing multiple mods for the same game can lead to problems such as conflicts.
+
+Do you want to uninstall the current files?</value>
   </data>
   <data name="ANY" xml:space="preserve">
     <value>ANY</value>
@@ -178,7 +182,13 @@
     <value>boot_plugins.txt file has been edited and uploaded to your console.</value>
   </data>
   <data name="CANT_FIND_BACKUP_FILE" xml:space="preserve">
-    <value>There is a backup data for {0}.\n\nHowever, this file has either been moved or deleted.\n\nIf you've moved this file, go to Tools &gt; Game Backup Files and set the new local file path. If this file was deleted, remove the backup file data and backup the file again.\n\nThis file cannot be uninstalled to avoid missing game files, so it will be ignored.</value>
+    <value>There is a backup data for {0}.
+
+However, this file has either been moved or deleted.
+
+If you've moved this file, go to Tools &gt; Game Backup Files and set the new local file path. If this file was deleted, remove the backup file data and backup the file again.
+
+This file cannot be uninstalled to avoid missing game files, so it will be ignored.</value>
   </data>
   <data name="CANT_UNINSTALL_CFW_FILES" xml:space="preserve">
     <value>You cannot uninstall files from the firmware folder. Any missing files could impact your console performance.</value>
@@ -220,7 +230,7 @@
     <value>Connected</value>
   </data>
   <data name="CONNECTED_NOTIFICATION" xml:space="preserve">
-    <value>You are now connected to Arisen Mods ★</value>
+    <value>You are now connected to Arisen Studio ★</value>
   </data>
   <data name="CONNECTING_TO_CONSOLE" xml:space="preserve">
     <value>Connecting to: {0}</value>
@@ -240,6 +250,9 @@
   <data name="CONNECT_TO_CONSOLE" xml:space="preserve">
     <value>Connect to console...</value>
   </data>
+  <data name="CONSOLE_INFO" xml:space="preserve">
+    <value>Console Info</value>
+  </data>
   <data name="CONSOLE_MANAGER" xml:space="preserve">
     <value>Console Manager</value>
   </data>
@@ -254,6 +267,9 @@
   </data>
   <data name="CREATE_BACKUP_FILE" xml:space="preserve">
     <value>You must first create a backup file to restore.</value>
+  </data>
+  <data name="CURRENT_GAME" xml:space="preserve">
+    <value>Current Game:</value>
   </data>
   <data name="CUSTOMIZATION" xml:space="preserve">
     <value>Customization</value>
@@ -343,7 +359,9 @@
     <value>Unable to launch game file. Error: {0}</value>
   </data>
   <data name="ERROR_OCCURRED" xml:space="preserve">
-    <value>An error occurred: {0}\n\nPlease try agian later. If the problem persists &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt;open a new issue&lt;/a&gt; on our GitHub tracker.</value>
+    <value>An error occurred: {0}
+
+Please try agian later. If the problem persists &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt;open a new issue&lt;/a&gt; on our GitHub tracker.</value>
   </data>
   <data name="EXTRACT_IMAGE" xml:space="preserve">
     <value>Extract Image</value>
@@ -388,7 +406,9 @@
     <value>These files weren't installed to the connected console.</value>
   </data>
   <data name="FILES_REINSTALL" xml:space="preserve">
-    <value>{0} is already installed to: {1}\n\nDo you want to reinstall the files?</value>
+    <value>{0} is already installed to: {1}
+
+Do you want to reinstall the files?</value>
   </data>
   <data name="FILES_UNINSTALLING" xml:space="preserve">
     <value>Uninstalling files...</value>
@@ -454,7 +474,9 @@
     <value>You already have a module with this name.</value>
   </data>
   <data name="FILE_REINSTALL" xml:space="preserve">
-    <value>{0} is already installed.\n\nDo you want to reinstall the file?</value>
+    <value>{0} is already installed.
+
+Do you want to reinstall the file?</value>
   </data>
   <data name="FILE_RENAME" xml:space="preserve">
     <value>Rename File</value>
@@ -469,13 +491,17 @@
     <value>Unable to rename file. Error: {0}</value>
   </data>
   <data name="FILE_RENAME_MODULE" xml:space="preserve">
-    <value>Do you want to rename this file?\n\nNote: It will not affect being able to load the module.</value>
+    <value>Do you want to rename this file?
+
+Note: It will not affect being able to load the module.</value>
   </data>
   <data name="FILE_RENAMING" xml:space="preserve">
     <value>Renaming file to: {0}</value>
   </data>
   <data name="FILE_SAVE_ERROR" xml:space="preserve">
-    <value>There was a problem saving or uploading file.\n\nError: {0}</value>
+    <value>There was a problem saving or uploading file.
+
+Error: {0}</value>
   </data>
   <data name="FILE_UNINSTALL_ERROR" xml:space="preserve">
     <value>Unable to uninstall files. Error: {0}</value>
@@ -607,20 +633,33 @@
     <value>HELP</value>
   </data>
   <data name="HELP_TRANSLATE" xml:space="preserve">
-    <value>Help translate Arisen Mods on Crowdin</value>
+    <value>Help translate Arisen Studio on Crowdin</value>
   </data>
   <data name="HOME" xml:space="preserve">
     <value>Home</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO" xml:space="preserve">
-    <value>Activating a C00/Demo package is very easy and doesn't require a rap file. It can be done using ReActPSN or PSNPatch.\n\nReActPSN : Run the homebrew while pressing and holding circle on your controller.
-\nPSNPatch : Run PSNPatch and press R1. It should displays a list of the games that have been unlocked.</value>
+    <value>Activating a C00/Demo package is very easy and doesn't require a rap file. It can be done using ReActPSN or PSNPatch.
+
+ReActPSN : Run the homebrew while pressing and holding circle on your controller.
+PSNPatch : Run PSNPatch and press R1. It should displays a list of the games that have been unlocked.</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO_QUESTION" xml:space="preserve">
     <value>How do I activate a C00/Demo that has a free license?</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP" xml:space="preserve">
-    <value>Activating a package using a rap file requires few steps. It can be done with ReActPSN or PSNPatch. However, I will only describe how to do it with ReActPSN.\n\n1. Format a USB key in FAT32.\n2. Create the folder 'exdata' at the root of the USB key.\n3. Move the corresponding RAP file for the games you want to activate in the exdata folder.\nWarning: Do not rename rap files ! You need to leave their original ugly name.\n4. Connect the USB key in the right USB port of the PS3 (the closest to the bluray drive).\n5. Delete the ReActPSN user on your PS3 if it exists.\n6. Create the account 'aa' (without quotes) and open the account.\n7. Run ReActPSN and the screen should go black, then you should hear beeps and then the PS3 should reboot.\n8. The user 'aa' should be gone now and the account 'ReActPSN' automatically created.\n9. You're done!</value>
+    <value>Activating a package using a rap file requires few steps. It can be done with ReActPSN or PSNPatch. However, I will only describe how to do it with ReActPSN.
+
+1. Format a USB key in FAT32.
+2. Create the folder 'exdata' at the root of the USB key.
+3. Move the corresponding RAP file for the games you want to activate in the exdata folder.
+Warning: Do not rename rap files ! You need to leave their original ugly name.
+4. Connect the USB key in the right USB port of the PS3 (the closest to the bluray drive).
+5. Delete the ReActPSN user on your PS3 if it exists.
+6. Create the account 'aa' (without quotes) and open the account.
+7. Run ReActPSN and the screen should go black, then you should hear beeps and then the PS3 should reboot.
+8. The user 'aa' should be gone now and the account 'ReActPSN' automatically created.
+9. You're done!</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP_QUESTION" xml:space="preserve">
     <value>How do I activate a PSN package with a RAP file?</value>
@@ -647,7 +686,8 @@
     <value>Insert a USB device to your computer first and then install the files again.</value>
   </data>
   <data name="INSERT_USB_DEVICE_TO_CONSOLE" xml:space="preserve">
-    <value>One or more files needs to be installed to a USB device which is connected to your console.\nInsert a USB device to your console and click 'Yes' to continue. Otherwise click 'No' to ignore these files.</value>
+    <value>One or more files needs to be installed to a USB device which is connected to your console.
+Insert a USB device to your console and click 'Yes' to continue. Otherwise click 'No' to ignore these files.</value>
   </data>
   <data name="INSTALLED" xml:space="preserve">
     <value>Installed</value>
@@ -886,6 +926,9 @@
   <data name="LABEL_IMAGE_SIZE_TOO_BIG" xml:space="preserve">
     <value>Image file size is too big!</value>
   </data>
+  <data name="LABEL_IMPORT_FROM_KV_FILE" xml:space="preserve">
+    <value>Import from KV file</value>
+  </data>
   <data name="LABEL_INSTALL" xml:space="preserve">
     <value>Install</value>
   </data>
@@ -949,11 +992,16 @@
   <data name="LABEL_NEXT" xml:space="preserve">
     <value>Next</value>
   </data>
+  <data name="LABEL_NONE" xml:space="preserve">
+    <value>None</value>
+  </data>
   <data name="LABEL_NOT_INSTALLED" xml:space="preserve">
     <value>Not Installed</value>
   </data>
   <data name="LABEL_NO_GAMES" xml:space="preserve">
-    <value>No games added yet.\n\nYou can add them using the File Manager.</value>
+    <value>No games added yet.
+
+You can add them using the File Manager.</value>
   </data>
   <data name="LABEL_OK" xml:space="preserve">
     <value>OK</value>
@@ -1024,6 +1072,9 @@
   <data name="LABEL_SAVE_AND_UPDATE" xml:space="preserve">
     <value>Save &amp;&amp; Update</value>
   </data>
+  <data name="LABEL_SAVE_FILE" xml:space="preserve">
+    <value>Save File</value>
+  </data>
   <data name="LABEL_SAVE_PROFILE" xml:space="preserve">
     <value>Save Profile</value>
   </data>
@@ -1080,6 +1131,9 @@
   </data>
   <data name="LABEL_TOTAL_FILES" xml:space="preserve">
     <value>Total Files</value>
+  </data>
+  <data name="LABEL_TOTAL_RESULTS" xml:space="preserve">
+    <value>Showing {0} of {1} total results</value>
   </data>
   <data name="LABEL_TRANSLATORS" xml:space="preserve">
     <value>Translators</value>
@@ -1142,7 +1196,9 @@
     <value>Module Loader</value>
   </data>
   <data name="MODULE_LOAD_ERROR" xml:space="preserve">
-    <value>Unable to load module.\n\nError: {0}</value>
+    <value>Unable to load module.
+
+Error: {0}</value>
   </data>
   <data name="MODULE_LOAD_SUCCESS" xml:space="preserve">
     <value>Successfully loaded module.</value>
@@ -1151,13 +1207,17 @@
     <value>Module has not been loaded.</value>
   </data>
   <data name="MODULE_UNLOAD_ERROR" xml:space="preserve">
-    <value>Unable to unload module.\n\nError: {0}</value>
+    <value>Unable to unload module.
+
+Error: {0}</value>
   </data>
   <data name="MODULE_UNLOAD_SUCCESS" xml:space="preserve">
     <value>Successfully unloaded module.</value>
   </data>
   <data name="MOD_NOT_INSTALLED" xml:space="preserve">
-    <value>{0} is not installed on your console.\n\nDo you want to try uninstalling the file anyway?</value>
+    <value>{0} is not installed on your console.
+
+Do you want to try uninstalling the file(s) anyway?</value>
   </data>
   <data name="MOTHERBOARD" xml:space="preserve">
     <value>Motherboard</value>
@@ -1211,7 +1271,17 @@
     <value>Make sure Neighborhood is installed on your computer</value>
   </data>
   <data name="NOTICE_INSTALL_REBUG_FILES" xml:space="preserve">
-    <value>These files are being installed to the firmware folder (dev_rebug) which is for REBUG Custom Firmware only. Please read everything below before proceeding.\n\n- It's recommended to first create a backup of the entire folder before installing any files.\n- Your console must be running Rebug custom firmware.\n- REBUG TOOLBOX must be open during installation\n- Any missing or corrupt files in this folder can impact your console performance.\n- If you have issues after rebooting console, enter recovery mode and reinstall the custom firmware.\n\nOnly continue at your own risk and only if you know what you're doing.\n\nDo you want to continue?</value>
+    <value>These files are being installed to the firmware folder (dev_rebug) which is for REBUG Custom Firmware only. Please read everything below before proceeding.
+
+- It's recommended to first create a backup of the entire folder before installing any files.
+- Your console must be running Rebug custom firmware.
+- REBUG TOOLBOX must be open during installation
+- Any missing or corrupt files in this folder can impact your console performance.
+- If you have issues after rebooting console, enter recovery mode and reinstall the custom firmware.
+
+Only continue at your own risk and only if you know what you're doing.
+
+Do you want to continue?</value>
   </data>
   <data name="NOTIFY_ICON" xml:space="preserve">
     <value>Notify Icon</value>
@@ -1247,7 +1317,9 @@
     <value>No archive file download selected.</value>
   </data>
   <data name="NO_GAME_REGION_FOLDER_FOUND" xml:space="preserve">
-    <value>Unable to find the game update folder for this region.\nInstall the correct mods for this game or choose a different game region.</value>
+    <value>Unable to find the game update folder for this region.
+
+Install the correct mods for this game or choose a different game region.</value>
   </data>
   <data name="NO_GAME_REGION_FOUND" xml:space="preserve">
     <value>Game region cannot be found on console.</value>
@@ -1352,7 +1424,9 @@
     <value>Redirecting...</value>
   </data>
   <data name="REDIRECT_TO_GITHUB_ISSUES" xml:space="preserve">
-    <value>You will now be redirected to our GitHub Issues page and all details will be automatically filled for you. Please provide information about the issue to help us fix your problem.\nClick the 'Submit' button to open a new issue which can help us fix any problems.</value>
+    <value>You will now be redirected to our GitHub Issues page and all details will be automatically filled for you. Please provide information about the issue to help us fix your problem.
+
+Click the 'Submit' button to open a new issue which can help us fix any problems.</value>
   </data>
   <data name="REFER_TO_BASE_DIRECTORY" xml:space="preserve">
     <value>Use %BASE_DIR% to refer to the Base Directory.</value>
@@ -1373,7 +1447,10 @@
     <value>Replace Image</value>
   </data>
   <data name="REQUIRES_PREVIOUS_USB_DEVICE" xml:space="preserve">
-    <value>Files have been installed to a USB device connected to your console. You can either uninstall them now or manually delete them.\n\nIf you would like to uninstall the files now, connect the same USB device you installed the mods to into the same port of your console and click 'Yes' to continue.\nIf you don't want to uninstall the files, click 'No' and all of these files will be ignored.</value>
+    <value>Files have been installed to a USB device connected to your console. You can either uninstall them now or manually delete them.
+
+If you would like to uninstall the files now, connect the same USB device you installed the mods to into the same port of your console and click 'Yes' to continue.
+If you don't want to uninstall the files, click 'No' and all of these files will be ignored.</value>
   </data>
   <data name="RESTART" xml:space="preserve">
     <value>Restart</value>
@@ -1419,6 +1496,9 @@
   </data>
   <data name="STARTING_INSTALL" xml:space="preserve">
     <value>Starting install...</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status:</value>
   </data>
   <data name="SUCCESS" xml:space="preserve">
     <value>Success</value>
