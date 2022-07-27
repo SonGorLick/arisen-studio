@@ -361,7 +361,7 @@ This file cannot be uninstalled to avoid missing game files, so it will be ignor
   <data name="ERROR_OCCURRED" xml:space="preserve">
     <value>An error occurred: {0}
 
-Please try agian later. If the problem persists &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt;open a new issue&lt;/a&gt; on our GitHub tracker.</value>
+Please try again later. If the problem persists &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt;open a new issue&lt;/a&gt; on our GitHub tracker.</value>
   </data>
   <data name="EXTRACT_IMAGE" xml:space="preserve">
     <value>Extract Image</value>
@@ -1131,9 +1131,6 @@ You can add them using the File Manager.</value>
   </data>
   <data name="LABEL_TOTAL_FILES" xml:space="preserve">
     <value>Total Files</value>
-  </data>
-  <data name="LABEL_TOTAL_RESULTS" xml:space="preserve">
-    <value>Showing {0} of {1} total results</value>
   </data>
   <data name="LABEL_TRANSLATORS" xml:space="preserve">
     <value>Translators</value>
