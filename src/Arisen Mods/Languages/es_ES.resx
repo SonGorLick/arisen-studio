@@ -176,7 +176,7 @@ Instalar múltiples mods para el mismo juego puede llevar a problemas como confl
     <value>Algunos archivos del juego se sobrescribirán. ¿Quieres hacer una copia de seguridad de los archivos del juego actual? Estos archivos se pueden restaurar al desinstalar los mods.</value>
   </data>
   <data name="BOOT_PLUGINS_EDITOR" xml:space="preserve">
-    <value>Editor de Plugins de Arrancar</value>
+    <value>Editor de Plugins de inicio</value>
   </data>
   <data name="BOOT_PLUGINS_FILE_SAVED" xml:space="preserve">
     <value>El archivo boot_plugins.txt ha sido editado y subido a tu consola.</value>
