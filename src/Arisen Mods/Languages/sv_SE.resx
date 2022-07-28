@@ -133,7 +133,11 @@
     <value>Alla Spel</value>
   </data>
   <data name="ANOTHER_MOD_INSTALLED" xml:space="preserve">
-    <value>{0} är installerad till: {1}\nInstallation av flera moddar för samma spel kan leda till problem som konflikter.\n\nVill du avinstallera aktuella filer?</value>
+    <value>{0} är installerad på: {1}
+
+Installation av flera moddar för samma spel kan leda till problem som konflikter.
+
+Vill du avinstallera aktuella filer?</value>
   </data>
   <data name="ANY" xml:space="preserve">
     <value>VILKET SOM</value>
@@ -178,7 +182,13 @@
     <value>boot_plugins.txt har redigerats och laddats upp till din konsol.</value>
   </data>
   <data name="CANT_FIND_BACKUP_FILE" xml:space="preserve">
-    <value>Du gjorde en säkerhetskopia av {0}. Den här filen har dock antingen flyttats eller tagits bort.\n\nOm du har flyttat denna fil, gå till Verktyg &gt; Säkerhetskopierade Spelfiler och ange den nya lokala sökvägen. Om den här filen raderades, ta bort säkerhetskopieringsfilens data och säkerhetskopiera filen igen.\n\nDen här filen kan inte avinstalleras för att undvika saknade spelfiler, så den kommer att ignoreras.</value>
+    <value>Det finns säkerhetskopieringsdata för {0}.
+
+Den här filen har dock antingen flyttats eller tagits bort.
+
+Om du har flyttat denna fil, gå till Verktyg &gt; Game Backup-filer och ange den nya lokala sökvägen. Om den här filen raderades, ta bort säkerhetskopieringsfilens data och säkerhetskopiera filen igen.
+
+Den här filen kan inte avinstalleras för att undvika saknade spelfiler, så den kommer att ignoreras.</value>
   </data>
   <data name="CANT_UNINSTALL_CFW_FILES" xml:space="preserve">
     <value>Du kan inte avinstallera filer från mappen med inbyggd programvara. Alla filer som saknas kan påverka konsolens prestanda.</value>
@@ -220,7 +230,7 @@
     <value>Connected</value>
   </data>
   <data name="CONNECTED_NOTIFICATION" xml:space="preserve">
-    <value>Du är nu ansluten till Arisen Mods ★</value>
+    <value>Du är nu ansluten till Arisen Studio ★</value>
   </data>
   <data name="CONNECTING_TO_CONSOLE" xml:space="preserve">
     <value>Ansluter till: {0}</value>
@@ -240,6 +250,9 @@
   <data name="CONNECT_TO_CONSOLE" xml:space="preserve">
     <value>Anslut till konsolen...</value>
   </data>
+  <data name="CONSOLE_INFO" xml:space="preserve">
+    <value>Konsolinformation</value>
+  </data>
   <data name="CONSOLE_MANAGER" xml:space="preserve">
     <value>Konsolhanterare</value>
   </data>
@@ -254,6 +267,9 @@
   </data>
   <data name="CREATE_BACKUP_FILE" xml:space="preserve">
     <value>Först måste du skapa en säkerhetskopia innan du kan återställa.</value>
+  </data>
+  <data name="CURRENT_GAME" xml:space="preserve">
+    <value>Nuvarande spel:</value>
   </data>
   <data name="CUSTOMIZATION" xml:space="preserve">
     <value>Anpassning</value>
@@ -343,7 +359,9 @@
     <value>Kunde inte starta spelfil. Error;{0}</value>
   </data>
   <data name="ERROR_OCCURRED" xml:space="preserve">
-    <value>Ett fel uppstod: {0}</value>
+    <value>Ett fel uppstod: {0}
+
+Vänligen försök igen senare. Om problemet kvarstår &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt;öppna ett nytt ärende&lt;/a&gt; på vår GitHub-tracker.</value>
   </data>
   <data name="EXTRACT_IMAGE" xml:space="preserve">
     <value>Extrahera avbild</value>
@@ -388,7 +406,9 @@
     <value>Dessa filer installerades inte till den anslutna konsolen.</value>
   </data>
   <data name="FILES_REINSTALL" xml:space="preserve">
-    <value>{0} är redan installerad till: {1}\n\nVill du installera om filerna?</value>
+    <value>{0} är redan installerad till: {1}
+
+Vill du installera om filerna?</value>
   </data>
   <data name="FILES_UNINSTALLING" xml:space="preserve">
     <value>Avinstallerar filer...</value>
@@ -454,7 +474,9 @@
     <value>Du har redan en modul med samma namn.</value>
   </data>
   <data name="FILE_REINSTALL" xml:space="preserve">
-    <value>{0} är redan installerad.\n\nVill du installera om filen?</value>
+    <value>{0} är redan installerad.
+
+Vill du installera om filen?</value>
   </data>
   <data name="FILE_RENAME" xml:space="preserve">
     <value>Döp om Fil</value>
@@ -469,13 +491,17 @@
     <value>Kunde inte byta namn på filen. Fel: {0}</value>
   </data>
   <data name="FILE_RENAME_MODULE" xml:space="preserve">
-    <value>Vill du byta namn på denna filen?\n\nNotera: Detta kommer inte att påverka möjligheten att ladda modulen.</value>
+    <value>Vill du byta namn på filen?
+
+Obs: Detta kommer inte att påverka möjligheten att ladda modulen.</value>
   </data>
   <data name="FILE_RENAMING" xml:space="preserve">
     <value>Döper om fil till: {0}</value>
   </data>
   <data name="FILE_SAVE_ERROR" xml:space="preserve">
-    <value>Ett fel uppstod när filen sparades eller laddades upp.\n\nError: {0}</value>
+    <value>Ett fel uppstod när filen sparades eller laddades upp.
+
+Fel: {0}</value>
   </data>
   <data name="FILE_UNINSTALL_ERROR" xml:space="preserve">
     <value>Kunde inte avinstallera filer. Fel: {0}</value>
@@ -607,20 +633,33 @@
     <value>HJÄLP</value>
   </data>
   <data name="HELP_TRANSLATE" xml:space="preserve">
-    <value>Hjälp till att översätta Arisen Mods på Crowdin</value>
+    <value>Hjälp till att översätta Arisen Studio på Crowdin</value>
   </data>
   <data name="HOME" xml:space="preserve">
     <value>Hem</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO" xml:space="preserve">
-    <value>Att aktivera ett C00/Demo-paket är mycket enkelt och kräver inte en rap-fil. Det kan göras med ReActPSN eller PSNPatch.\n\nReActPSN : Kör homebrew medan du trycker på och håller in cirkel på din styrenhet.
-\nPSNPatch : Kör PSNPatch och tryck på R1. Den bör visa en lista över de spel som har låsts upp.</value>
+    <value>Att aktivera ett C00/Demo-paket är mycket enkelt och kräver inte en rap-fil. Det kan göras med ReActPSN eller PSNPatch.
+
+ReActPSN : Kör programmet medan du trycker på och håller in cirkel på din handkontroll.
+PSNPatch : Kör PSNPatch och tryck på R1. Den bör visa en lista över de spel som har låsts upp.</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO_QUESTION" xml:space="preserve">
     <value>Hur aktiverar jag en C00/Demo som har en gratislicens?</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP" xml:space="preserve">
-    <value>Att aktivera ett paket med en rap-fil kräver några steg. Det kan göras med ReActPSN eller PSNPatch. Jag kommer dock bara att beskriva hur man gör det med ReActPSN.\n\n1. Formatera en USB-enhet i FAT32.\n2. Skapa mappen "exdata" i roten på USB-enheten.\n3. Flytta motsvarande RAP-fil för de spel du vill aktivera i exdata mappen.\nVarning: Döp inte om rap-filerna! Du måste lämna deras ursprungliga fula namn.\n4. Anslut USB-enheten i den högra USB-porten på PS3 (närmast bluray-enheten).\n5. Radera ReActPSN-användaren på din PS3 om den finns.\n6. Skapa kontot "aa" (utan citat-tecken) och öppna kontot.\n7. Kör ReActPSN och skärmen borde bli svart, sedan ska du höra pip och sedan ska PS3 startas om.\n8. Användaren "aa" bör vara borta nu och kontot "ReActPSN" skapas automatiskt.\nDu är klar!</value>
+    <value>Att aktivera ett paket med en rap-fil kräver några steg. Det kan göras med ReActPSN eller PSNPatch. Jag kommer dock bara att beskriva hur man gör det med ReActPSN.
+
+1. Formatera en USB-enhet i FAT32.
+2. Skapa mappen "exdata" i roten på USB-enheten.
+3. Flytta motsvarande RAP-fil för de spel du vill aktivera i exdata mappen.
+Varning: Döp inte om rap-filerna! Du måste lämna deras ursprungliga fula namn.
+4. Anslut USB-enheten i den högra USB-porten på PS3 (närmast bluray-enheten).
+5. Radera ReActPSN-användaren på din PS3 om den finns.
+6. Skapa kontot "aa" (utan citat-tecken) och öppna kontot.
+7. Kör ReActPSN och skärmen borde bli svart, sedan ska du höra pip och sedan ska PS3 startas om.
+8. Användaren "aa" bör vara borta nu och kontot "ReActPSN" skapas automatiskt.
+9. Du är klar!</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP_QUESTION" xml:space="preserve">
     <value>Hur aktiverar jag ett PSN-paket med en RAP-fil?</value>
@@ -647,7 +686,8 @@
     <value>Sätt i en USB-enhet till datorn först och installera sedan filerna igen.</value>
   </data>
   <data name="INSERT_USB_DEVICE_TO_CONSOLE" xml:space="preserve">
-    <value>En eller flera filer måste installeras på en USB-enhet som är ansluten till konsolen.\nSätt in en USB-enhet i konsolen och klicka på "Ja" för att fortsätta. Annars klickar du på "Nej" för att ignorera dessa filer.</value>
+    <value>En eller flera filer måste installeras på en USB-enhet som är ansluten till konsolen.
+Sätt in en USB-enhet i konsolen och klicka på "Ja" för att fortsätta. Annars klickar du på "Nej" för att ignorera dessa filer.</value>
   </data>
   <data name="INSTALLED" xml:space="preserve">
     <value>Installerad</value>
@@ -886,6 +926,9 @@
   <data name="LABEL_IMAGE_SIZE_TOO_BIG" xml:space="preserve">
     <value>Avbildningens storlek är för stor!</value>
   </data>
+  <data name="LABEL_IMPORT_FROM_KV_FILE" xml:space="preserve">
+    <value>Importera från KV-fil</value>
+  </data>
   <data name="LABEL_INSTALL" xml:space="preserve">
     <value>Installera</value>
   </data>
@@ -949,11 +992,16 @@
   <data name="LABEL_NEXT" xml:space="preserve">
     <value>Nästa</value>
   </data>
+  <data name="LABEL_NONE" xml:space="preserve">
+    <value>Inget</value>
+  </data>
   <data name="LABEL_NOT_INSTALLED" xml:space="preserve">
     <value>Inte Installerad</value>
   </data>
   <data name="LABEL_NO_GAMES" xml:space="preserve">
-    <value>Inga spel tillagda ännu.\n\nDu kan lägga till dem med filhanteraren.</value>
+    <value>Inga spel tillagda ännu.
+
+Du kan lägga till dem med filhanteraren.</value>
   </data>
   <data name="LABEL_OK" xml:space="preserve">
     <value>OK</value>
@@ -1023,6 +1071,9 @@
   </data>
   <data name="LABEL_SAVE_AND_UPDATE" xml:space="preserve">
     <value>Spara &amp;&amp; Uppdatera</value>
+  </data>
+  <data name="LABEL_SAVE_FILE" xml:space="preserve">
+    <value>Spara Fil</value>
   </data>
   <data name="LABEL_SAVE_PROFILE" xml:space="preserve">
     <value>Spara profil</value>
@@ -1142,7 +1193,9 @@
     <value>Modul Laddare</value>
   </data>
   <data name="MODULE_LOAD_ERROR" xml:space="preserve">
-    <value>Kunde inte ladda modulen.\n\nFel: {0}</value>
+    <value>Kunde inte ladda modulen.
+
+Fel: {0}</value>
   </data>
   <data name="MODULE_LOAD_SUCCESS" xml:space="preserve">
     <value>Lyckades ladda modulen.</value>
@@ -1151,13 +1204,17 @@
     <value>Modulen har inte laddats.</value>
   </data>
   <data name="MODULE_UNLOAD_ERROR" xml:space="preserve">
-    <value>Kunde inte ladda ur modulen.\n\nFel: {0}</value>
+    <value>Kunde inte ladda ur modulen.
+
+Fel: {0}</value>
   </data>
   <data name="MODULE_UNLOAD_SUCCESS" xml:space="preserve">
     <value>Lyckades ladda ur modulen.</value>
   </data>
   <data name="MOD_NOT_INSTALLED" xml:space="preserve">
-    <value>{0} är inte installerad på din konsol.\n\nVill du försöka avinstallera filen ändå?</value>
+    <value>{0} är inte installerad på din konsol.
+
+Vill du försöka avinstallera filen/filerna ändå?</value>
   </data>
   <data name="MOTHERBOARD" xml:space="preserve">
     <value>Moderkort</value>
@@ -1211,7 +1268,17 @@
     <value>Se till att Grannskapet är installerat på din dator</value>
   </data>
   <data name="NOTICE_INSTALL_REBUG_FILES" xml:space="preserve">
-    <value>Dessa filer installeras till mappen firmware (dev_rebug) som endast är avsedd för REBUG Custom Firmware. Läs allt nedan innan du fortsätter.\n\n- Det rekommenderas att först skapa en säkerhetskopia av hela mappen innan du installerar några filer.\n- Din konsol måste köra Rebug custom firmware.\n- REBUG TOOLBOX måste köras under installationen\n- Alla saknade eller skadade filer i den här mappen kan påverka konsolens prestanda.\n- Om du har problem efter omstart av konsol, gå in i återställningsläge och installera om custom firmware.\n\nFortsätt endast på egen risk och bara om du vet vad du gör.\n\nVill du fortsätta?</value>
+    <value>Dessa filer installeras till mappen firmware (dev_rebug) som endast är avsedd för REBUG Custom Firmware. Läs allt nedan innan du fortsätter.
+
+- Det rekommenderas att först skapa en säkerhetskopia av hela mappen innan du installerar några filer.
+- Din konsol måste köra Rebug custom firmware.
+- REBUG TOOLBOX måste köras under installationen
+- Alla saknade eller skadade filer i den här mappen kan påverka konsolens prestanda.
+- Om du har problem efter omstart av konsol, gå in i återställningsläge och installera om custom firmware.
+
+Fortsätt endast på egen risk och bara om du vet vad du gör.
+
+Vill du fortsätta?</value>
   </data>
   <data name="NOTIFY_ICON" xml:space="preserve">
     <value>Notifikations-ikon</value>
@@ -1247,7 +1314,9 @@
     <value>Ingen nedladdningsbar arkivfil vald.</value>
   </data>
   <data name="NO_GAME_REGION_FOLDER_FOUND" xml:space="preserve">
-    <value>Det går inte att hitta mappen för speluppdateringar för denna region.\nInstallera rätt moddar för detta spel eller välj en annan spelregion.</value>
+    <value>Det går inte att hitta mappen för speluppdateringar för denna region.
+
+Installera rätt moddar för detta spel eller välj en annan spelregion.</value>
   </data>
   <data name="NO_GAME_REGION_FOUND" xml:space="preserve">
     <value>Spelregionen kan inte hittas i konsolen.</value>
@@ -1352,7 +1421,9 @@
     <value>Omdirigerar...</value>
   </data>
   <data name="REDIRECT_TO_GITHUB_ISSUES" xml:space="preserve">
-    <value>Du kommer nu att omdirigeras till vår GitHub Issues sida och alla detaljer kommer automatiskt att fyllas i åt dig. Ange information om problemet för att hjälpa oss att åtgärda ditt problem.\nKlicka på "Skicka" knappen för att öppna ett nytt ärende som kan hjälpa oss att lösa eventuella problem.</value>
+    <value>Du kommer nu att omdirigeras till vår GitHub Issues sida och alla detaljer kommer automatiskt att fyllas i åt dig. Ange information om problemet för att hjälpa oss att åtgärda ditt problem.
+
+Klicka på "Skicka" knappen för att öppna ett nytt ärende som kan hjälpa oss att lösa eventuella problem.</value>
   </data>
   <data name="REFER_TO_BASE_DIRECTORY" xml:space="preserve">
     <value>Använd %BASE_DIR% för att hänvisa till Baskatalogen.</value>
@@ -1373,7 +1444,10 @@
     <value>Ersätt Avbildning</value>
   </data>
   <data name="REQUIRES_PREVIOUS_USB_DEVICE" xml:space="preserve">
-    <value>Filer har installerats på en USB-enhet som är ansluten till konsolen. Du kan antingen avinstallera dem nu eller manuellt ta bort dem.\n\nOm du vill avinstallera filerna nu, ansluta samma USB-enhet som du installerade moddarna på till samma port på konsolen och klicka på "Ja" för att fortsätta.\nOm du inte vill avinstallera filerna klickar du på "Nej" och alla dessa filer kommer att ignoreras.</value>
+    <value>Filer har installerats på en USB-enhet som är ansluten till konsolen. Du kan antingen avinstallera dem nu eller manuellt ta bort dem.
+
+Om du vill avinstallera filerna nu, ansluta samma USB-enhet som du installerade moddarna på till samma port på konsolen och klicka på "Ja" för att fortsätta.
+Om du inte vill avinstallera filerna klickar du på "Nej" och alla dessa filer kommer att ignoreras.</value>
   </data>
   <data name="RESTART" xml:space="preserve">
     <value>Starta om</value>
@@ -1419,6 +1493,9 @@
   </data>
   <data name="STARTING_INSTALL" xml:space="preserve">
     <value>Startar installation...</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status:</value>
   </data>
   <data name="SUCCESS" xml:space="preserve">
     <value>Slutförd</value>
