@@ -133,7 +133,11 @@
     <value>Tüm Oyunlar</value>
   </data>
   <data name="ANOTHER_MOD_INSTALLED" xml:space="preserve">
-    <value>{0} şuraya kurulur: {1}\nAynı oyun için birden çok mod kurmak, çakışma gibi sorunlara yol açabilir.\n\nMevcut dosyaları kaldırmak istiyor musunuz?</value>
+    <value>{0} şuraya kurulur: {1}
+
+Aynı oyun için birden çok mod kurmak, çakışma gibi sorunlara yol açabilir.
+
+Mevcut dosyaları kaldırmak istiyor musunuz?</value>
   </data>
   <data name="ANY" xml:space="preserve">
     <value>HİÇ</value>
@@ -178,7 +182,13 @@
     <value>boot_plugins.txt dosyası düzenlendi ve konsolunuza yüklendi.</value>
   </data>
   <data name="CANT_FIND_BACKUP_FILE" xml:space="preserve">
-    <value>{0} için bir yedek veri var.\n\nAncak, bu dosya ya taşındı ya da silindi.\n\nBu dosyayı taşıdıysanız, Araçlar &gt; Oyun Yedekleme Dosyaları'na gidin ve yeni yerel dosya yolunu ayarlayın. Bu dosya silindiyse, yedekleme dosyası verilerini kaldırın ve dosyayı yeniden yedekleyin.\n\nOyun dosyalarının kaybolmasını önlemek için bu dosya kaldırılamaz, bu nedenle yok sayılır.</value>
+    <value>{0} için bir yedek veri var.
+
+Ancak, bu dosya ya taşındı ya da silindi.
+
+Bu dosyayı taşıdıysanız, Araçlar &gt; Oyun Yedekleme Dosyaları kısmına gidin ve yeni yerel dosya yolunu ayarlayın. Bu dosya silindiyse, yedekleme dosyası verilerini kaldırın ve dosyayı yeniden yedekleyin.
+
+Oyun dosyalarının kaybolmasını önlemek için bu dosya kaldırılamaz, bu nedenle yok sayılır.</value>
   </data>
   <data name="CANT_UNINSTALL_CFW_FILES" xml:space="preserve">
     <value>Üretici yazılımı klasöründen dosyaları kaldıramazsınız. Eksik dosyalar konsol performansınızı etkileyebilir.</value>
@@ -220,7 +230,7 @@
     <value>Bağlandı</value>
   </data>
   <data name="CONNECTED_NOTIFICATION" xml:space="preserve">
-    <value>Arisen Mods ile bağlısınız ★</value>
+    <value>Arisen Studio ile bağlısınız ★</value>
   </data>
   <data name="CONNECTING_TO_CONSOLE" xml:space="preserve">
     <value>Bağlanıyor: {0}</value>
@@ -240,6 +250,9 @@
   <data name="CONNECT_TO_CONSOLE" xml:space="preserve">
     <value>Konsola bağlan...</value>
   </data>
+  <data name="CONSOLE_INFO" xml:space="preserve">
+    <value>Konsol Bilgisi</value>
+  </data>
   <data name="CONSOLE_MANAGER" xml:space="preserve">
     <value>Konsol Yöneticisi</value>
   </data>
@@ -254,6 +267,9 @@
   </data>
   <data name="CREATE_BACKUP_FILE" xml:space="preserve">
     <value>Geri yüklemek için önce bir yedekleme dosyası oluşturmalısınız.</value>
+  </data>
+  <data name="CURRENT_GAME" xml:space="preserve">
+    <value>Mevcut Oyun:</value>
   </data>
   <data name="CUSTOMIZATION" xml:space="preserve">
     <value>Özelleştirmeler</value>
@@ -343,7 +359,9 @@
     <value>Oyun dosyası başlatılamıyor. Hata: {0}</value>
   </data>
   <data name="ERROR_OCCURRED" xml:space="preserve">
-    <value>Bir hata oluştu: {0}\n\nLütfen sonra deneyin. Sorun devam ederse &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt; yeni konu aç&lt;/a&gt; GitHub üstünde.</value>
+    <value>Bir hata oluştu: {0}
+
+Lütfen sonra deneyin. Sorun devam ederse &lt;a href="https://github.com/ohhsodead/ArisenMods/issues/new?assignees=&amp;labels=&amp;template=bug_report.md"&gt; yeni konu aç&lt;/a&gt; GitHub üstünde.</value>
   </data>
   <data name="EXTRACT_IMAGE" xml:space="preserve">
     <value>Görüntüyü Ayıkla</value>
@@ -388,7 +406,9 @@
     <value>Bu dosyalar bağlı konsola kurulmadı.</value>
   </data>
   <data name="FILES_REINSTALL" xml:space="preserve">
-    <value>{0} zaten şuraya kuruldu: {1}\n\nDosyaları yeniden kurmak istiyor musunuz?</value>
+    <value>{0} zaten şuraya kuruldu: {1}
+
+Dosyaları yeniden kurmak istiyor musunuz?</value>
   </data>
   <data name="FILES_UNINSTALLING" xml:space="preserve">
     <value>Dosyalar kaldırılıyor...</value>
@@ -454,7 +474,9 @@
     <value>Bu isime sahip bir modülünüz zaten var.</value>
   </data>
   <data name="FILE_REINSTALL" xml:space="preserve">
-    <value>{0} zaten kurulu.\n\nDosyayı tekrar kurmak istiyor musunuz?</value>
+    <value>{0} zaten kurulu.
+
+Dosyayı tekrar kurmak istiyor musunuz?</value>
   </data>
   <data name="FILE_RENAME" xml:space="preserve">
     <value>Dosyayı Adlandır</value>
@@ -469,13 +491,17 @@
     <value>Dosya yeniden adlandırılamıyor. Hata: {0}</value>
   </data>
   <data name="FILE_RENAME_MODULE" xml:space="preserve">
-    <value>Bu dosyayı yeniden adlandırmak istiyor musunuz?\n\nNot: Modülün yüklenmesini etkilemeyecektir.</value>
+    <value>Bu dosyayı yeniden adlandırmak istiyor musunuz?
+
+Not: Modülün yüklenmesini etkilemeyecektir.</value>
   </data>
   <data name="FILE_RENAMING" xml:space="preserve">
     <value>Dosya yeniden adlandırılıyor: {0}</value>
   </data>
   <data name="FILE_SAVE_ERROR" xml:space="preserve">
-    <value>Dosya kaydedilirken veya yüklenirken sorun oluştu.\n\nHata: {0}</value>
+    <value>Dosya kaydedilirken veya yüklenirken sorun oluştu.
+
+Hata: {0}</value>
   </data>
   <data name="FILE_UNINSTALL_ERROR" xml:space="preserve">
     <value>Dosyalar kaldırılamıyor. Hata: {0}</value>
@@ -607,20 +633,33 @@
     <value>YARDIM</value>
   </data>
   <data name="HELP_TRANSLATE" xml:space="preserve">
-    <value>Arisen Mod çevirisine Crowdin ile yardım edin</value>
+    <value>Arisen Studio çevirisine Crowdin ile yardım edin</value>
   </data>
   <data name="HOME" xml:space="preserve">
     <value>Ev</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO" xml:space="preserve">
-    <value>Bir C00/Demo paketini etkinleştirmek kolaydır bir rap dosyası gerektirmez. ReActPSN veya PSNPatch kullanılarak yapılabilir.\n\nReActPSN : Kontrol cihazınızdaki daireye basılı tutarken 'homebrew' çalıştırın.
-\nPSNPatch : PSNPatch çalıştırın ve R1 düğmesine basın. Kilidi açılmış oyunların bir listesini göstermelidir.</value>
+    <value>Bir C00/Demo paketini etkinleştirmek kolaydır bir rap dosyası gerektirmez. ReActPSN veya PSNPatch kullanılarak yapılabilir.
+
+ReActPSN : Kontrol cihazınızdaki daireye basılı tutarken 'homebrew' çalıştırın.
+PSNPatch : PSNPatch çalıştırın ve R1 düğmesine basın. Kilidi açılmış oyunların bir listesini göstermelidir.</value>
   </data>
   <data name="HOW_TO_ACTIVATE_DEMO_QUESTION" xml:space="preserve">
     <value>Ücretsiz lisansı olan bir C00/Demo nasıl etkinleştiririm?</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP" xml:space="preserve">
-    <value>Bir rap dosyası kullanarak bir paketi etkinleştirmek birkaç adım gerektirir. ReActPSN veya PSNPatch ile yapılabilir. ReActPSN ile nasıl yapılacağını anlatacağım.\n\n1. USB cihazını FAT32 olarak biçimlendirin.\n2. USB cihazı ana dizinde 'exdata' klasörü oluşturun.\n3. Etkinleştirmek istediğiniz oyunlar için ilgili RAP dosyasını exdata klasörüne taşıyın.\nUyarı: Rap dosyalarını yeniden adlandırmayın! Orijinal çirkin isimlerini bırakmanız gerekiyor.\n4. USB cihazını PS3 sağ USB bağlantı noktasına (bluray sürücüsüne yakın olana) bağlayın.\n5. Varsa, PS3 üstünden ReActPSN kullanıcısını silin.\n6. 'aa' hesabını (tırnak işaretleri olmadan) oluşturun ve hesabı açın.\n7. ReActPSN çalıştırın, ekran kararacaktır, ardından bip sesleri duymalısınız ve ardından PS3 yeniden başlatılmalıdır.\n8. 'aa' kullanıcısı şimdi gitmiş olmalı ve 'ReActPSN' hesabı otomatik olarak oluşturulmalıdır.\n9. Şimdi hazırısınız!</value>
+    <value>Bir rap dosyası kullanarak bir paketi etkinleştirmek birkaç adım gerektirir. ReActPSN veya PSNPatch ile yapılabilir. ReActPSN ile nasıl yapılacağını anlatacağım.
+
+1. USB cihazını FAT32 olarak biçimlendirin.
+2. USB cihazı ana dizinde 'exdata' klasörü oluşturun.
+3. Etkinleştirmek istediğiniz oyunlar için ilgili RAP dosyasını exdata klasörüne taşıyın.
+Uyarı: Rap dosyalarını yeniden adlandırmayın! Orijinal çirkin isimlerini bırakmanız gerekiyor.
+4. USB cihazını PS3 sağ USB bağlantı noktasına (bluray sürücüsüne yakın olana) bağlayın.
+5. Varsa, PS3 üstünden ReActPSN kullanıcısını silin.
+6. 'aa' hesabını (tırnak işaretleri olmadan) oluşturun ve hesabı açın.
+7. ReActPSN çalıştırın, ekran kararacaktır, ardından bip sesleri duymalısınız ve ardından PS3 yeniden başlatılmalıdır.
+8. 'aa' kullanıcısı şimdi gitmiş olmalı ve 'ReActPSN' hesabı otomatik olarak oluşturulmalıdır.
+9. Şimdi hazırısınız!</value>
   </data>
   <data name="HOW_TO_ACTIVATE_RAP_QUESTION" xml:space="preserve">
     <value>RAP dosyası içeren bir PSN paketini nasıl etkinleştiririm?</value>
@@ -647,7 +686,8 @@
     <value>Önce bilgisayarınıza bir USB cihazı takın ve ardından dosyaları yeniden kurun.</value>
   </data>
   <data name="INSERT_USB_DEVICE_TO_CONSOLE" xml:space="preserve">
-    <value>Konsolunuza bağlı bir USB cihazına bir veya daha fazla dosyanın kurulması gerekiyor.\nKonsolunuza bir USB cihazı takın ve devam etmek için 'Evet' tıklayın. Yoksa bu dosyaları yok saymak için 'Hayır' tıklayın.</value>
+    <value>Konsolunuza bağlı bir USB cihazına bir veya daha fazla dosyanın kurulması gerekiyor.
+Konsolunuza bir USB cihazı takın ve devam etmek için 'Evet' tıklayın. Yoksa bu dosyaları yok saymak için 'Hayır' tıklayın.</value>
   </data>
   <data name="INSTALLED" xml:space="preserve">
     <value>Kurulu</value>
@@ -886,6 +926,9 @@
   <data name="LABEL_IMAGE_SIZE_TOO_BIG" xml:space="preserve">
     <value>Resim dosyası boyutu çok büyük!</value>
   </data>
+  <data name="LABEL_IMPORT_FROM_KV_FILE" xml:space="preserve">
+    <value>KV dosyasından içe aktar</value>
+  </data>
   <data name="LABEL_INSTALL" xml:space="preserve">
     <value>Kur</value>
   </data>
@@ -949,11 +992,16 @@
   <data name="LABEL_NEXT" xml:space="preserve">
     <value>Sonraki</value>
   </data>
+  <data name="LABEL_NONE" xml:space="preserve">
+    <value>Yok</value>
+  </data>
   <data name="LABEL_NOT_INSTALLED" xml:space="preserve">
     <value>Kurulu Değil</value>
   </data>
   <data name="LABEL_NO_GAMES" xml:space="preserve">
-    <value>Henüz oyun eklenmemiş.\n\nDosya Yöneticisini kullanarak ekleyebilirsiniz.</value>
+    <value>Henüz oyun eklenmemiş.
+
+Bunları Dosya Yöneticisini kullanarak ekleyebilirsiniz.</value>
   </data>
   <data name="LABEL_OK" xml:space="preserve">
     <value>Tamam</value>
@@ -1023,6 +1071,9 @@
   </data>
   <data name="LABEL_SAVE_AND_UPDATE" xml:space="preserve">
     <value>Kaydet &amp; Güncelle</value>
+  </data>
+  <data name="LABEL_SAVE_FILE" xml:space="preserve">
+    <value>Dosyayı Kaydet</value>
   </data>
   <data name="LABEL_SAVE_PROFILE" xml:space="preserve">
     <value>Profili Kaydet</value>
@@ -1142,7 +1193,9 @@
     <value>Modül Yükleyici</value>
   </data>
   <data name="MODULE_LOAD_ERROR" xml:space="preserve">
-    <value>Modül yüklenemiyor.\n\nHata: {0}</value>
+    <value>Modül yüklenemiyor.
+
+Hata: {0}</value>
   </data>
   <data name="MODULE_LOAD_SUCCESS" xml:space="preserve">
     <value>Modül başarıyla yüklendi.</value>
@@ -1151,13 +1204,17 @@
     <value>Modül yüklenmedi.</value>
   </data>
   <data name="MODULE_UNLOAD_ERROR" xml:space="preserve">
-    <value>Modül kaldırılamıyor.\n\nHata: {0}</value>
+    <value>Modül kaldırılamıyor.
+
+Hata: {0}</value>
   </data>
   <data name="MODULE_UNLOAD_SUCCESS" xml:space="preserve">
     <value>Modül başarıyla kaldırıldı.</value>
   </data>
   <data name="MOD_NOT_INSTALLED" xml:space="preserve">
-    <value>{0} is not installed on your console.\n\nDo you want to try uninstalling the file anyway?</value>
+    <value>{0} konsolunuzda kurulu değil.
+
+Yine de dosyaları kaldırmayı denemek istiyor musunuz?</value>
   </data>
   <data name="MOTHERBOARD" xml:space="preserve">
     <value>Anakart</value>
@@ -1211,7 +1268,17 @@
     <value>Bilgisayarınızda 'Neighborhood' kurulu olduğundan emin olun</value>
   </data>
   <data name="NOTICE_INSTALL_REBUG_FILES" xml:space="preserve">
-    <value>These files are being installed to the firmware folder (dev_rebug) which is for REBUG Custom Firmware only. Please read everything below before proceeding.\n\n- It's recommended to first create a backup of the entire folder before installing any files.\n- Your console must be running Rebug custom firmware.\n- REBUG TOOLBOX must be open during installation\n- Any missing or corrupt files in this folder can impact your console performance.\n- If you have issues after rebooting console, enter recovery mode and reinstall the custom firmware.\n\nOnly continue at your own risk and only if you know what you're doing.\n\nDo you want to continue?</value>
+    <value>Bu dosyalar, yalnızca REBUG Custom Firmware için olan firmware klasörüne (dev_rebug) kurulur. Lütfen devam etmeden önce aşağıdaki her şeyi okuyun.
+
+- Herhangi bir dosya kurmadan önce tüm klasörün bir yedeğini oluşturmanız önerilir.
+- Konsolunuz Rebug özel yazılımını çalıştırıyor olmalıdır.
+- Kurulum sırasında REBUG TOOLBOX açık olmalıdır
+- Bu klasördeki herhangi bir eksik veya bozuk dosya konsol performansınızı etkileyebilir.
+- Konsolu yeniden başlattıktan sonra sorun yaşarsanız kurtarma moduna girin ve özel yazılımı yeniden yükleyin.
+
+Yalnızca riski size ait olmak üzere ve ne yaptığınızı biliyorsanız devam edin.
+
+Devam etmek istiyor musun?</value>
   </data>
   <data name="NOTIFY_ICON" xml:space="preserve">
     <value>Bildirim Simgesi</value>
@@ -1247,7 +1314,9 @@
     <value>Arşiv dosyası indirmesi seçilmedi.</value>
   </data>
   <data name="NO_GAME_REGION_FOLDER_FOUND" xml:space="preserve">
-    <value>Bu bölge için oyun güncelleme klasörü bulunamadı.\nBu oyun için doğru modları kurun veya farklı bir oyun bölgesi seçin.</value>
+    <value>Bu bölge için oyun güncelleme klasörü bulunamadı.
+
+Bu oyun için doğru modları kurun veya farklı bir oyun bölgesi seçin.</value>
   </data>
   <data name="NO_GAME_REGION_FOUND" xml:space="preserve">
     <value>Oyun bölgesi konsolda bulunamıyor.</value>
@@ -1352,7 +1421,9 @@
     <value>Yönlendiriliyor...</value>
   </data>
   <data name="REDIRECT_TO_GITHUB_ISSUES" xml:space="preserve">
-    <value>Şimdi GitHub Sorunlar sayfamıza yönlendirileceksiniz ve tüm ayrıntılar sizin için otomatik olarak doldurulacak. Sorununuzu çözmemize yardımcı olmak için lütfen sorun hakkında bilgi verin.\nBir sorunu çözmemize yardımcı olmak için 'Gönder' düğmesini tıklayın.</value>
+    <value>Şimdi GitHub Sorunlar sayfamıza yönlendirileceksiniz ve tüm ayrıntılar sizin için otomatik olarak doldurulacak. Sorununuzu çözmemize yardımcı olmak için lütfen sorun hakkında bilgi verin.
+
+Bir sorunu çözmemize yardımcı olmak için 'Gönder' düğmesini tıklayın.</value>
   </data>
   <data name="REFER_TO_BASE_DIRECTORY" xml:space="preserve">
     <value>Temel Dizin için %BASE_DIR% kullanın.</value>
@@ -1373,7 +1444,10 @@
     <value>Görseli Değiştir</value>
   </data>
   <data name="REQUIRES_PREVIOUS_USB_DEVICE" xml:space="preserve">
-    <value>Dosyalar, konsolunuza bağlı bir USB cihazına kuruldu. Bunları şimdi kaldırabilir veya el ile silebilirsiniz.\n\nDosyaları şimdi kaldırmak istiyorsanız, modları kurduğunuz aynı USB cihazını konsolunuzun aynı bağlantı noktasına bağlayın ve devam etmek için 'Evet' tıklayın.\nDosyaları kaldırmak istemiyorsanız, 'Hayır' tıklayın ve bu dosyaların tümü yok sayılacaktır.</value>
+    <value>Dosyalar, konsolunuza bağlı bir USB cihazına kuruldu. Bunları şimdi kaldırabilir veya el ile silebilirsiniz.
+
+Dosyaları şimdi kaldırmak istiyorsanız, modları yüklediğiniz aynı USB cihazını konsolunuzun aynı bağlantı noktasına bağlayın ve devam etmek için 'Evet'i tıklayın.
+Dosyaları kaldırmak istemiyorsanız, 'Hayır'ı tıklayın ve bu dosyaların tümü yok sayılacaktır.</value>
   </data>
   <data name="RESTART" xml:space="preserve">
     <value>Yeniden Başlat</value>
@@ -1419,6 +1493,9 @@
   </data>
   <data name="STARTING_INSTALL" xml:space="preserve">
     <value>Kurulum başlatılıyor...</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Durum:</value>
   </data>
   <data name="SUCCESS" xml:space="preserve">
     <value>Başarılı</value>
