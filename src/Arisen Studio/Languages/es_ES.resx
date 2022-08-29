@@ -200,7 +200,7 @@ Este archivo no puede desinstalado para evitar que falten archivos del juego, po
     <value>Trucos aplicados al juego con éxito.</value>
   </data>
   <data name="CHEAT_NOT_APPLIED" xml:space="preserve">
-    <value>No se pueden aplicar trucos al juego. Error: {0}</value>
+    <value>Incapaz de aplicar el truco al juego. Error: {0}</value>
   </data>
   <data name="CHEAT_NOT_SUPPORTED" xml:space="preserve">
     <value>Este truco no se puede aplicar porque contiene un código de operación que aún no se ha implementado.</value>
@@ -385,7 +385,7 @@ Por favor inténtalo más tarde. Si el problema persiste &lt;a href="https://git
     <value>Obteniendo la lista del directorio de: {0}</value>
   </data>
   <data name="FETCHING_LISTING_ERROR" xml:space="preserve">
-    <value>No se puede obtener la lista de directorios para la ruta: {0} - Error: {1}</value>
+    <value>Incapaz de obtener la lista de directorios para la ruta: {0} - Error: {1}</value>
   </data>
   <data name="FETCHING_ROOT_DIRECTORIES" xml:space="preserve">
     <value>Obteniendo directorios raíz</value>
@@ -1313,7 +1313,7 @@ Sólo continúa bajo tu propio riesgo y solo si sabes lo que estás haciendo.
     <value>No se seleccionó ninguna descarga de archivo.</value>
   </data>
   <data name="NO_GAME_REGION_FOLDER_FOUND" xml:space="preserve">
-    <value>No se puede encontrar la carpeta de actualización del juego para esta región.
+    <value>Incapaz de encontrar la carpeta de actualización del juego para esta región.
 
 Instala los mods correctos para este juego o elige una región de juego diferente.</value>
   </data>
